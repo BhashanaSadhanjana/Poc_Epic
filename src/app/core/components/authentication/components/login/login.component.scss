@@ -1,0 +1,93 @@
+body{
+  background: #ECECEC;
+}
+
+.bread-crumb{
+  border:2px solid #D02B31;
+  opacity: 1;
+  background: #D02B31;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.login-header{
+  width: 380px;
+  margin: 0 auto;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  color: #d02b31;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.login-box {
+  background: #fff;
+  border: 1px solid #ececec;
+  padding: 30px;
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 0px 22px 0px rgb(225 225 225);
+  -moz-box-shadow: 0px 0px 22px 0px rgba(225,225,225,1);
+  box-shadow: 0px 0px 22px 0px rgb(225 225 225);
+  min-height: 265px;
+  width: 428px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.login_label {
+  font-family: arial;
+  font-weight: 500;
+  font-size: 11pt;
+  color: #545454;
+}
+
+.login-box input[type=text], .login-box input[type=password], input[type=text], select {
+  -webkit-transition: all 0.40s ease-in-out;
+  -moz-transition: all 0.40s ease-in-out;
+  -ms-transition: all 0.40s ease-in-out;
+  -o-transition: all 0.40s ease-in-out;
+  outline: none;
+}
+.login-box input {
+  padding: 10px 14px;
+  background-color: #FFFFFF;
+  background-image: none;
+  border: 1px solid #e5e6e7;
+  font-size: 14px;
+  width: 92%;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+}
+
+.btn-login {
+  display: inline-block;
+  height: 30px;
+  padding: 5px 20px 6px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  background: url(https://i.ibb.co/d7wqP0d/icon-sprite.png) repeat-x;
+  background-position: -5px -5px;
+  border-radius: 8px;
+  font-weight: bold;
+  float: right;
+  margin-top: 15px;
+}
+
+.login-footer {
+  width: 380px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8pt;
+  color: #9d9d9d;
+  text-align: center;
+
+
+}

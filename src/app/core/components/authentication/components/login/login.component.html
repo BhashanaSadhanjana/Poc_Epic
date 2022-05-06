@@ -1,0 +1,33 @@
+<body>
+<section>
+  <div>
+    <hr class="bread-crumb">
+  </div>
+  <div class="text-center mb-3">
+    <img src="https://i.ibb.co/MZ1gmWK/dfcc-logo.png">
+  </div>
+  <section class="">
+    <h2 class="login-header">User Login</h2>
+    <div class="login-box">
+<!--<form [formGroup]="loginForm">-->
+      <div>
+        <label for="txt_username" class="login_label">Username</label>
+        <input name="username" id="txt_username" type="text" class="form-login watermark" value size="30" maxlength="100" placeholder="Username" data-placeholdercss="watermarkInput">
+      </div>
+      <div>
+        <label for="txt_password" class="login_label">Password</label>
+        <input name="password" id="txt_password" type="password" class="form-login watermark" value size="30" maxlength="100" placeholder="Password" data-placeholdercss="watermarkInput" autocomplete="off">
+      </div>
+      <input type="hidden" name="browserTabKey" path="browserTabKey" id="browserTabKey" value="93439">
+      <input type="hidden" name="hndWidgetCount" id="hndWidgetCount" value="5">
+      <button mat-raised-button color="accent">
+        <mat-icon>mic</mat-icon>
+        Start Recording
+      </button>
+      <a href="" class="btn-login" title=""><mat-icon aria-hidden="false" aria-label="Example home icon">lock</mat-icon>Login</a>
+<!--</form>-->
+    </div>
+  </section>
+  <div class="login-footer">© ECMS V2.00.01.03 | {{currentYear}} All rights reserved | Powered by Epic Technology Group.</div>
+</section>
+</body>
